@@ -964,6 +964,12 @@
 
   # Delete all remote branches that have been merged into the remote master branch.
   master-cleanse-remote = !"git branch --remotes --merged origin/master | sed 's# *origin/##' | grep -v '^master$' xargs -I% git push origin :% 2>&1 | grep --colour=never 'deleted'"
+  
+  # Delete all local branches that have been merged into the local develop branch.
+  develop-cleanse-local = "!git checkout develop && git pull && git branch --merged | grep -v '* develop' | xargs git branch --delete"
+
+  # Delete all local branches that have been merged into the local current branch.
+  current-cleanse-local = "!git pull && git branch --merged | grep -ve '\\*.*' | xargs git branch --delete"
 
   # Publish the current branch by pushing it to the remote "origin",
   # and setting the current branch to track the upstream branch.
