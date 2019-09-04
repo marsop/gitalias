@@ -1178,7 +1178,7 @@
   ##
 
   topic-base-branch-name = "!f(){ \
-    printf \"master\n\"; \
+    printf \"develop\n\"; \
   };f"
 
   ### START & STOP ###
