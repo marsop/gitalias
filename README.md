@@ -1,3 +1,9 @@
+# Changes made w.r.t. Original Branch
+
+* The *topic-base-branch-name* points now to **develop** instead of **master**
+* Alias **current-cleanse-local** added
+* Alias **develop-cleanse-local** added
+
 # Git Alias
 
 This project provides many git alias commands that you can use as you like.
