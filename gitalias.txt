@@ -1,6 +1,7 @@
 ##
 # GitAlias.com file of many git alias items, including shortcuts, helpers, workflows, etc.
 #
+# marsop VERSION: 2019-09-06
 #
 # ## Usage
 #
