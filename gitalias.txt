@@ -131,6 +131,9 @@
   # commit with a message
   cm = commit --message
 
+  ### fetch ###
+  fp = fetch --prune
+
   ### checkout ###
 
   # checkout - update the working tree to match a branch or paths. [same as "o" for "out"]
