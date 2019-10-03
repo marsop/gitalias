@@ -4,6 +4,7 @@
 * Alias **current-cleanse-local** added
 * Alias **develop-cleanse-local** added
 * Alias **fp** added (**fp** = **f --prune** = **fetch --prune**)
+* Alias **topic-pull-merge** added
 
 # Git Alias
 
