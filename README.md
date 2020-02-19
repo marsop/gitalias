@@ -1,6 +1,7 @@
 # Changes made w.r.t. Original Branch
 
 * The *topic-base-branch-name* points now to **develop** instead of **master**
+* Alias **topic-commit** added
 * Alias **current-cleanse-local** added
 * Alias **develop-cleanse-local** added
 * Alias **fp** added (**fp** = **f --prune** = **fetch --prune**)
