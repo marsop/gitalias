@@ -1462,6 +1462,14 @@
     git push origin \":$old_branch\" \"$new_branch\"; \
   };f"
 
+  # add all, commit, pull and push
+  topic-commit = "!f(){ \
+    message=\"$1\"; \
+	  git aa; \
+    git cm \"$message\"; \
+	  git pull --no-edit; \
+    git push; \
+  };f"
 
   ##########################################################################
 
