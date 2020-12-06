@@ -13,24 +13,29 @@ This project provides many git alias commands that you can use as you like.
 
 Contents:
 
-* [Introduction](#introduction)
-  * [What is Git Alias?](#what-is-git-alias)
-  * [Where is the code?](#where-is-the-code)
-  * [Why use this?](#why-use-this)
-* [Install](#install)
-* [Examples](#examples)
-  * [Shortcut examples](#shortcut-examples)
-  * [Accelerator examples](#accelerator-examples)
-  * [Workflow examples](#workflow-examples)
-  * [Optimization examples](#optimization-examples)
-* [Customization](#customization)
-  * [Status](#status)
-  * [Log](#log)
-  * [Format](#format)
-* [Epilog](#epilog)
-  * [See also](#see-also)
-  * [To do](#to-do)
-  * [Thanks](#thanks)
+- [Changes made w.r.t. Original Branch](#changes-made-wrt-original-branch)
+- [Git Alias](#git-alias)
+  - [Introduction](#introduction)
+    - [What is Git Alias?](#what-is-git-alias)
+    - [Where is the code?](#where-is-the-code)
+    - [Why use this?](#why-use-this)
+  - [Install](#install)
+  - [Examples](#examples)
+    - [Shortcut examples](#shortcut-examples)
+    - [Popular examples](#popular-examples)
+    - [Accelerator examples](#accelerator-examples)
+    - [Recovery examples](#recovery-examples)
+    - [Coordination examples](#coordination-examples)
+    - [Workflow examples](#workflow-examples)
+    - [Optimization examples](#optimization-examples)
+  - [Customization](#customization)
+    - [Status](#status)
+    - [Log](#log)
+    - [Format](#format)
+  - [Epilog](#epilog)
+    - [See also](#see-also)
+    - [To do](#to-do)
+    - [Thanks](#thanks)
 
 
 ## Introduction
@@ -44,7 +49,7 @@ Git Alias is a collection of git version control shortcuts, functions, and comma
 
   * Improvements such as `optimize` to do a prune and repack with recommended settings.
 
-  * Topic branch flows such as `topic-start` to create a new topic branch using master.
+  * Topic workflows such as `topic-start` to create a new topic branch for a feature or fix.
 
   * Visualizations such as `graphviz` to show logs and charts using third-party tools.
 
@@ -331,7 +336,7 @@ To do list in priority order:
 
 Thanks to all the contributors, including all the creators of the projects mentioned above.
 
-Thanks to these people for extra help:
+Thanks to these people for extra help, in order of participation:
 
   * [Joel Parker Henderson](https://github.com/joelparkerhenderson)
   * [Bill Lazar](https://github.com/billsaysthis)
@@ -357,4 +362,4 @@ Thanks to these people for extra help:
   * [Tsukasa Noguchi](https://github.com/wild-mouse)
   * [YantaoZhao](https://github.com/yantaozhao)
   * [Jeff Wu](https://github.com/WuTheFWasThat)
-  
+  * [Gareth Owen](https://github.com/gwjo)
